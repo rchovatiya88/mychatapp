@@ -13,6 +13,19 @@ app.use(express.static(publicPath));
 io.on('connection', (socket) => {
     console.log('New User connected');
 
+    socket.emit('newMessage',{
+       from:'tom',
+       text: 'see you send',
+       createdAt:12213
+    });
+     
+    socket.on('createMessage', (message) => {
+        console.log('message created', message);
+    });
+
+
+
+
 socket.on('disconnect',() =>{
     console.log('User was disconnected')
 })
@@ -20,4 +33,4 @@ socket.on('disconnect',() =>{
 
 server.listen(3000, () => {
     console.log('Server is up on port 3000');
-});  
+}); 

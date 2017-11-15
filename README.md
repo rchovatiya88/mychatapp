@@ -6,3 +6,5 @@ Make a Chat APP
 - set up the port and push to github
 - connect it to glitch
 - import socketio
+- Client = index.js
+- Server = server.js
