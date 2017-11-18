@@ -14,3 +14,4 @@ New Feature Ideas!
 
 - Story time 
 - Quiz game
+- anonymos
