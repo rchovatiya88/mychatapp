@@ -8,3 +8,9 @@ Make a Chat APP
 - import socketio
 - Client = index.js
 - Server = server.js
+
+New Feature Ideas! 
+=====================
+
+- Story time 
+- Quiz game
